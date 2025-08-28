@@ -198,7 +198,6 @@ a:hover {
 }
 
 .menu a,
-.menu a:focus,
 .menu a:hover {
    text-decoration: none;
 }
@@ -352,8 +351,6 @@ a:hover {
 }
 
 @media (prefers-color-scheme: dark) {
-
-   .top .footer-txt,
    .works .footer-txt {
       color: #f2f3f4;
    }
