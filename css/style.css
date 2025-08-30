@@ -458,7 +458,6 @@ a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 1rem;
 }
 
 .sns-link-list {
@@ -467,6 +466,7 @@ a:hover {
     justify-content: space-evenly;
     align-items: center;
     gap: 5rem;
+    padding: 2rem 0;
 }
 
 .sns-link-list img {
