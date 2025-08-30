@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>works - portfolio</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/modaal.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="js/script.js" defer></script>
+</head>
+
+<body class="works">
+    <header class="header">
+        <h1 class="logo">
+            <a href="">
+                <img src="img/site_logo.png" alt="logo">
+            </a>
+        </h1>
+
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="/home/index.html"><img src="img/home" alt="">Home</a></li>
+                <li><a href="/profile/index.html"><img src="img/profile" alt="">Profile</a></li>
+                <li><a href="/works/index.html"><img src="img/works" alt="">Works</a></li>
+                <li><a href=""><img src="img/contact" alt="">Contact</a></li>
+            </ul>
+        </nav>
+
+        <input class="check" id="check" type="checkbox">
+        <label class="menu-btn" for="check">
+            <span class="bar bar-1"></span>
+            <span class="bar bar-2"></span>
+            <span class="bar bar-3"></span>
+        </label>
+    </header>
+
+    <main class="inner">
+        <section class="max-view">
+
+            <div class="view-left-half">
+                <div class="sp-box"></div>
+            </div>
+            <div class="view-right-half">
+                <div class="works-grid">
+                    <div class="box">
+                        <h2 class="title">WORKS</h2>
+                    </div>
+
+                    <div class="category">
+                        <div class="category-btn">
+                            <p class="">CATEGORY</p><span class="">▼</span>
+                        </div>
+
+                        <div class="categories">
+                            <ul class="categories-list">
+                                <li><a href="">All</a></li>
+                                <li><a href="#LOGO">LOGO</a></li>
+                                <li><a href="#GRAPHIC">GRAPHIC</a></li>
+                                <li><a href="#WEB">WEB</a></li>
+                                <li><a href="#UI">UI</a></li>
+                            </ul>
+                            <ul class="used-apps-list">
+                                <li><a href="#HTML"></a>HTML</li>
+                                <li><a href="#CSS"></a>CSS</li>
+                                <li><a href="#JAVA_SCRIPT">JAVA SCRIPT</a></li>
+                                <li><a href="#VS_CODE">VS CODE</a></li>
+                                <li><a href="#ILLUSTRATOR"></a>ILLUSTRATOR</li>
+                                <li><a href="#PHOTOSHOP"></a>PHOTOSHOP</li>
+                                <li><a href="#AFTER_EFFECTS">AFTER EFFECTS</a></li>
+                                <li><a href="#XD">XD</a></li>
+                                <li><a href="FIGMA">FIGMA</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="works-list">
+                        <div class="works-item">
+                            <div class="works-item-inner">
+                                <div class="works-img">
+                                    <img src="img/works1.png" alt="works1" class="works-thumb" data-modal="modal1">
+                                </div>
+                                <p class="works-item-txt">MY DESIGN WORKS</p>
+                                <h3 class="works-item-title">LOGO - ColorZ</h3>
+                                <ul class="#">
+                                    <li id="LOGO"><span>#</span>LOGO</li>
+                                    <li id="WEB"><span>#</span>WEB</li>
+                                </ul>
+                                <ul class="used-apps">
+                                    <li><span>#</span>ILLUSTRATOR</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="works-item">
+                            <div class="works-item-inner">
+                                <div class="works-img">
+                                    <img src="img/works2.png" alt="works2" class="works-thumb" data-modal="modal2">
+                                </div>
+                                <p>MY DESIGN WORKS</p>
+                                <h3>LOGO - minimalist</h3>
+                                <ul class="#">
+                                    <li id="LOGO"><span>#</span>LOGO</li>
+                                </ul>
+                                <ul class="used-apps">
+                                    <li><span>#</span>ILLUSTRATOR</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="works-item">
+                            <div class="works-item-inner">
+                                <div class="works-img">
+                                    <img src="img/works3.png" alt="works3" class="works-thumb" data-modal="modal3">
+                                </div>
+                                <p>MY DESIGN WORKS</p>
+                                <h3>LOGO - greeting</h3>
+                                <ul class="#">
+                                    <li id="LOGO"><span>#</span>LOGO</li>
+                                </ul>
+                                <ul class="used-apps">
+                                    <li><span>#</span>ILLUSTRATOR</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="works-item">
+                            <div class="works-item-inner">
+                                <div class="works-img">
+                                    <img src="img/works4.png" alt="works4" class="works-thumb" data-modal="modal4">
+                                </div>
+                                <p>MY DESIGN WORKS</p>
+                                <h3>LOGO - LAZY CAT</h3>
+                                <ul class="#">
+                                    <li id="LOGO"><span>#</span>LOGO</li>
+                                </ul>
+                                <ul class="used-apps">
+                                    <li><span>#</span>ILLUSTRATOR</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="works-item">
+                            <div class="works-item-inner">
+                                <div class="works-img">
+                                    <img src="img/works5.png" alt="works5" class="works-thumb" data-modal="modal5">
+                                </div>
+                                <p>MY DESIGN WORKS</p>
+                                <h3>VISUAL GRAPHIC - MY BUSINESS CARD</h3>
+                                <ul class="#">
+                                    <li id="GRAPHIC"><span>#</span>GRAPHIC</li>
+                                </ul>
+                                <ul class="used-apps">
+                                    <li><span>#</span>ILLUSTRATOR</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="works-item">
+                            <div class="works-item-inner">
+                                <div class="works-img">
+                                    <img src="img/works6.png" alt="works6" class="works-thumb" data-modal="modal6">
+                                </div>
+                                <p>MY DESIGN WORKS</p>
+                                <h3>WEB - TETRIS</h3>
+                                <ul class="#">
+                                    <li id="LOGO"><span>#</span>LOGO</li>
+                                    <li id="WEB"><span>#</span>WEB</li>
+                                </ul>
+                                <ul class="used-apps">
+                                    <li><span>#</span>ILLUSTRATOR</li>
+                                    <li><span>#</span>VS CODE</li>
+                                    <li><span>#</span>HTML</li>
+                                    <li><span>#</span>CSS</li>
+                                    <li><span>#</span>JAVA SCRIPT</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="works-item">
+                            <div class="works-item-inner">
+                                <div class="works-img">
+                                    <img src="img/works7.png" alt="works7" class="works-thumb" data-modal="modal7">
+                                </div>
+                                <p>MY DESIGN WORKS</p>
+                                <h3>WEB - KOREAN MANGA "LOOKISM" FOR XD</h3>
+                                <ul class="#">
+                                    <li id="GRAPHIC"><span>#</span>GRAPHIC</li>
+                                    <li id="WEB"><span>#</span>WEB</li>
+                                </ul>
+                                <ul class="used-apps">
+                                    <li><span>#</span>ILLUSTRATOR</li>
+                                    <li><span>#</span>PHOTOSHOP</li>
+                                    <li><span>#</span>AFTER EFFECTS</li>
+                                    <li><span>#</span>XD</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="works-item">
+                            <div class="works-item-inner">
+                                <div class="works-img">
+                                    <img src="img/works8.png" alt="works8" class="works-thumb" data-modal="modal8">
+                                </div>
+                                <p>MY DESIGN WORKS</p>
+                                <h3>WEB - MY PORTFOLIO SITE</h3>
+                                <ul class="#">
+                                    <li id="GRAPHIC"><span>#</span>GRAPHIC</li>
+                                    <li id="WEB"><span>#</span>WEB</li>
+                                </ul>
+                                <ul class="used-apps">
+                                    <li><span>#</span>VS CODE</li>
+                                    <li><span>#</span>HTML</li>
+                                    <li><span>#</span>CSS</li>
+                                    <li><span>#</span>JAVA SCRIPT</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="works-item">
+                            <div class="works-item-inner">
+                                <div class="works-img">
+                                    <img src="img/works9.png" alt="works9" class="works-thumb" data-modal="modal9">
+                                </div>
+                                <p>MY DESIGN WORKS</p>
+                                <h3>VISUAL GRAPHIC - MUSIC PLAYER UI</h3>
+                                <ul class="#">
+                                    <li id="GRAPHIC"><span>#</span>GRAPHIC</li>
+                                    <li id="UI"><span>#</span>UI</li>
+                                </ul>
+                                <ul class="used-apps">
+                                    <li><span>#</span>ILLUSTRATOR</li>
+                                    <li><span>#</span>FIGMA</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="more">
+                            <img src="img/works_more.png" alt="more">
+                        </div>
+                    </div>
+                    <div class="home"></div>
+                    <footer class="footer">
+                        <div class="logo">
+                            <img src="img/site_logo.png" alt="logo"><a href=""></a></img>
+                        </div>
+                        <div class="sns-link">
+                            <img src="img/icon_ig.png" alt="Instagram"><a href=""></a></img>
+                            <img src="img/icon_tiktok.png" alt="TikTok"><a href=""></a></img>
+                        </div>
+                        <p class="footer-txt">&copy; 2025 ColorZ All Rights Reserved.</p>
+                    </footer>
+                </div>
+            </div>
+        </section>
+
+        <div class="modal">
+            <div class="works-modal">
+                <div id="modal1" class="modal-container">
+                    <div class="modal-body">
+                        <span class="modal-close">&times;</span>
+                        <img src="img/works1.png" alt="works1" class="modal-img">
+                    </div>
+                </div>
+                <div id="modal2" class="modal-container">
+                    <div class="modal-body">
+                        <span class="modal-close">&times;</span>
+                        <img src="img/works2.jpg" alt="works2" class="modal-img">
+                        <p class="modal-txt">"ミニマリストの特徴" X "minimalist"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="js/modaal.js" defer></script>
+</body>
+
+</html>
