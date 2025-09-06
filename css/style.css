@@ -34,12 +34,6 @@ body {
     align-items: center;
 }
 
-@media (prefers-color-scheme: dark) {
-    body {
-        background: #f2f3f4;
-    }
-}
-
 a:hover {
     opacity: .7;
     transition: opacity .3s ease;
@@ -182,7 +176,7 @@ a:hover {
     display: block;
 }
 
-@media screen and (min-width:840px) {
+@media screen and (min-width:841px) {
     .menu-btn {
         display: none;
     }
@@ -634,11 +628,5 @@ a:hover {
 @media screen and (min-width:768px) {
     .footer-txt {
         font-size: .75rem;
-    }
-}
-
-@media (prefers-color-scheme: dark) {
-    .footer-txt {
-        color: #f2f3f4;
     }
 }
