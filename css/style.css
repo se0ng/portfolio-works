@@ -580,6 +580,10 @@ a:hover {
     gap: 1rem;
 }
 
+.home img {
+    height: 3vh;
+}
+
 .home a {
     color: #0c090a;
 }
