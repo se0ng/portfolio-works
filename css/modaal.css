@@ -103,7 +103,6 @@
     color: #f2f3f4;
     border: none;
     width: 2rem;
-    height: 2rem;
     font-size: 2rem;
     border-radius: 1rem;
     cursor: pointer;
@@ -112,7 +111,7 @@
     right: 0;
     align-self: flex-end;
     z-index: 20;
-    line-height: 1;
+    line-height: 1.6;
     display: flex;
     justify-content: center;
     align-items: center;
