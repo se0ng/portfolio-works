@@ -103,7 +103,8 @@
     color: #f2f3f4;
     border: none;
     width: 2rem;
-    font-size: 2rem;
+    height: 2rem;
+    font-size: 1.5rem;
     border-radius: 1rem;
     line-height: 1.6;
     cursor: pointer;
