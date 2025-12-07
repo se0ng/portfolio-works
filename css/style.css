@@ -1,8 +1,6 @@
 @charset "utf-8";
 
 /* Variable */
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
 
 
@@ -22,7 +20,7 @@ body {
 }
 
 body {
-    font-family: "DM Sans";
+    font-family: "Figtree";
     /* font-optical-sizing: auto; */
     font-weight: 400;
     font-style: normal;
@@ -161,7 +159,6 @@ a:hover {
     height: 100%;
     gap: 5vh;
     background-color: rgba(229, 229, 229, .9);
-    font-family: "Dancing Script";
     font-size: 1rem;
     transform: translateX(100%);
     transition: .1s ease;
@@ -370,7 +367,7 @@ a:hover {
 }
 
 .title {
-    font-family: "DM Sans";
+    font-family: "Figtree";
     font-size: 10vw;
     font-weight: 1000;
     letter-spacing: .5rem;
